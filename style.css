@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffc400, #af8101);
+    color: white;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #ffda44;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 12px auto;
+    padding: 15px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3f350a;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 14px 30px;
+    background: #3700ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffda44;
+    color: #ffd902;
+    transform: scale(1.05);
+}
+
+h3 {
+    text-align: center;
+    margin: 25px;
+    color: #ffda44;
+    font-size: 22px;
+}
+
+ul {
+    max-width: 600px;
+    margin: 25px auto;
+    list-style: none;
+}
+
+li {
+    background: white;
+    color: #25105c;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border-left: 7px solid #ff7b22;
+    box-shadow: 0 5px 15px #00000030;
+}
+
+li button {
+    background: #745900;
+    margin: 12px 0 0;
+    padding: 9px 18px;
+}
+
+li button:hover {
+    background: #ffda44;
+}
